@@ -4,6 +4,7 @@ import ComA from './ComA';
 import Num from './Num';
 import State from './Component/StateWiseData/State';
 import StateWise from './Component/StateWiseData/StateWise';
+import ComX from "./Component/StateWiseData/Compiler/ComX"
 
 const FirstName = createContext();
 
@@ -15,6 +16,8 @@ const App = () => {
         <Num />
         <State />
         <StateWise />
+        <br />
+        <ComX/>
       </FirstName.Provider>
     </>
   );
